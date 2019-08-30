@@ -1,0 +1,24 @@
+{
+  "name": "createwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-windows": "nodemon ./server.js -e hbs,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoriDoro/Ironhack-week-4-create-website.git"
+  },
+  "author": "\"me\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoriDoro/Ironhack-week-4-create-website/issues"
+  },
+  "homepage": "https://github.com/DoriDoro/Ironhack-week-4-create-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4"
+  }
+}
